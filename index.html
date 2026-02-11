@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sriram Elango - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Sriram Elango</div>
+            <ul class="nav-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#internships">Internships</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#reverse-engineering">Reverse Engineering</a></li>
+                <li><a href="#media">Media</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Sriram Elango</h1>
+                <p class="hero-subtitle">Aerospace Engineer & Astrophysics Researcher</p>
+                <p class="hero-description">
+                    Harvard College '27 | S.B. in Mechanical and Aerospace Engineering, Astrophysics<br>
+                    Passionate about aerospace engineering, machine learning, and astrophysics research. 
+                    Winner of the Congressional App Challenge and Congressional Award Gold Medal.
+                </p>
+                <div class="hero-buttons">
+                    <a href="Sriram_Elango_Main_Resume.pdf" class="btn btn-primary" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=l1optYkAAAAJ&hl=en" class="btn btn-secondary" target="_blank">
+                        <i class="fas fa-graduation-cap"></i> Google Scholar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a student at Harvard College pursuing a S.B. in Mechanical and Aerospace Engineering 
+                        and Astrophysics, with cross-enrollment at MIT. My research spans aerospace engineering, 
+                        machine learning, astrophysics, and computational methods, with a focus on trajectory 
+                        optimization, interstellar object tracking, and transformer architectures for scientific applications.
+                    </p>
+                    <p>
+                        I have extensive experience in both theoretical research and practical engineering, having 
+                        worked at institutions including Princeton University, Harvard-Smithsonian CfA, 
+                        and the Institute for Earth Observations. My work spans across 
+                        conferences including AIAA, AGU, IEEE, and ICWSM, with research spanning from CubeSat development 
+                        to UAP analysis using multimodal transformers.
+                    </p>
+                    <p>
+                        I am committed to advancing STEM education and making cutting-edge research accessible. 
+                        Through my work, I aim to demonstrate how engineering, machine learning, and astrophysics 
+                        can be combined to solve complex real-world challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internships Section -->
+    <section id="internships" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Internships & Research Experience</h2>
+            <div class="internships-timeline">
+                <div class="internship-item">
+                    <div class="internship-header">
+                        <h3 class="internship-title">Aerospace Engineering Research Intern</h3>
+                        <span class="internship-org">Princeton University</span>
+                        <span class="internship-date">2025 – Present</span>
+                    </div>
+                    <p class="internship-description">
+                        Designing and implementing a custom diffusion model to predict thrust-control vectors 
+                        for global trajectory search in the Circular Restricted Three-Body Problem (CR3BP).
+                    </p>
+                </div>
+
+                <div class="internship-item">
+                    <div class="internship-header">
+                        <h3 class="internship-title">Astrophysics Research Intern</h3>
+                        <span class="internship-org">Harvard-Smithsonian CfA</span>
+                        <span class="internship-date">2024 – Present</span>
+                    </div>
+                    <p class="internship-description">
+                        Developing new methods for precision tracking of interstellar objects and NEOs using 
+                        JWST and terrestrial telescopes.
+                    </p>
+                </div>
+
+                <div class="internship-item">
+                    <div class="internship-header">
+                        <h3 class="internship-title">Solid Propulsion Team Member</h3>
+                        <span class="internship-org">MIT Rocket Team</span>
+                        <span class="internship-date">2024 – Present</span>
+                    </div>
+                    <p class="internship-description">
+                        Manufacturing rocket nozzles and conducting hydrostatic and static firing tests for 
+                        the Spaceport America Cup competition.
+                    </p>
+                </div>
+
+                <div class="internship-item">
+                    <div class="internship-header">
+                        <h3 class="internship-title">Engineer & Researcher</h3>
+                        <span class="internship-org">Institute for Earth Observations</span>
+                        <span class="internship-date">2021 – Present</span>
+                    </div>
+                    <p class="internship-description">
+                        Developed ground stations and designed low-cost CubeSats for international distribution; 
+                        showcased at IEEE, SmallSat Conference, and AGU. Collaborated with NASA, U.S. Naval Academy, 
+                        Kenyan Space Agency, and more; impacted STEM curricula globally.
+                    </p>
+                </div>
+
+                <div class="internship-item">
+                    <div class="internship-header">
+                        <h3 class="internship-title">Machine Learning Research Intern</h3>
+                        <span class="internship-org">Harvard-Smithsonian CfA</span>
+                        <span class="internship-date">2024 – 2024</span>
+                    </div>
+                    <p class="internship-description">
+                        Designed a multimodal (infrared video & audio) transformer architecture for UAP analysis, 
+                        integrating AST and MViT with DINO pretraining and InfoSieve.
+                    </p>
+                </div>
+
+                <div class="internship-item">
+                    <div class="internship-header">
+                        <h3 class="internship-title">Machine Learning Research Intern</h3>
+                        <span class="internship-org">National University of Singapore</span>
+                        <span class="internship-date">2022 – 2024</span>
+                    </div>
+                    <p class="internship-description">
+                        Conducted NLP, computational linguistics, and AI bias research on transformer models; 
+                        presented at international conferences.
+                    </p>
+                </div>
+
+                <div class="internship-item">
+                    <div class="internship-header">
+                        <h3 class="internship-title">Machine Learning Engineering Intern</h3>
+                        <span class="internship-org">Fireflies.ai</span>
+                        <span class="internship-date">2021 – 2023</span>
+                    </div>
+                    <p class="internship-description">
+                        Integrated GPT-3 and advanced transformer models for automated meeting summarization, 
+                        robust Q&A systems, and additional NLP tasks.
+                    </p>
+                </div>
+
+                <div class="internship-item">
+                    <div class="internship-header">
+                        <h3 class="internship-title">Astrophysics Researcher</h3>
+                        <span class="internship-org">Summer Science Program (New Mexico Tech)</span>
+                        <span class="internship-date">2022 – 2022</span>
+                    </div>
+                    <p class="internship-description">
+                        Computed Keplerian elements of asteroid 2001 MZ7 using the Method of Gauss and Monte Carlo 
+                        simulations; published by IAU MPC.
+                    </p>
+                </div>
+
+                <div class="internship-item">
+                    <div class="internship-header">
+                        <h3 class="internship-title">NASA SEES Intern</h3>
+                        <span class="internship-org">NASA & UT Austin</span>
+                        <span class="internship-date">2021 – 2021</span>
+                    </div>
+                    <p class="internship-description">
+                        Trained and evaluated YOLOv4 CNNs for precise mosquito habitat detection; first author at 
+                        AGU, Globe IVSS, arXiv, and NASA symposium.
+                    </p>
+                </div>
+
+                <div class="internship-item">
+                    <div class="internship-header">
+                        <h3 class="internship-title">Astrobiology Research Intern</h3>
+                        <span class="internship-org">ASSIP (George Mason University)</span>
+                        <span class="internship-date">2021 – 2022</span>
+                    </div>
+                    <p class="internship-description">
+                        Simulated ETI probabilities via Monte Carlo; lead author at NASA's AbSciCon22 on 
+                        extraterrestrial intelligence modeling.
+                    </p>
+                </div>
+
+                <div class="internship-item">
+                    <div class="internship-header">
+                        <h3 class="internship-title">WSSP Researcher</h3>
+                        <span class="internship-org">Rutgers University</span>
+                        <span class="internship-date">2021 – 2021</span>
+                    </div>
+                    <p class="internship-description">
+                        Analyzed Landoltia punctata DNA sequences; published two mRNA sequences in NCBI GenBank 
+                        and achieved course valedictorian.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-satellite"></i>
+                    </div>
+                    <h3 class="project-title">Ground Station Application</h3>
+                    <p class="project-description">
+                        A comprehensive desktop software application designed for real-time communication 
+                        with CubeSat satellites. The app enables data collection, transmission, and analysis 
+                        of environmental and atmospheric data including temperature, barometric pressure, 
+                        humidity, and air quality.
+                    </p>
+                    <ul class="project-features">
+                        <li>Real-time Wi-Fi data transmission</li>
+                        <li>Data visualization and graphing tools</li>
+                        <li>Infrared and regular photo/video capture</li>
+                        <li>Environmental monitoring capabilities</li>
+                    </ul>
+                    <div class="project-badge">
+                        <i class="fas fa-trophy"></i> Winner - Congressional App Challenge 2021
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3 class="project-title">A3Sat CubeSat Development</h3>
+                    <p class="project-description">
+                        Contributed to the development of a 4-inch CubeSat satellite system at the Institute 
+                        for Earth Observations. The project involved building and programming miniature 
+                        satellites capable of atmospheric data collection via drone deployment.
+                    </p>
+                    <ul class="project-features">
+                        <li>CubeSat hardware integration</li>
+                        <li>Sensor programming and calibration</li>
+                        <li>Drone-based deployment system</li>
+                        <li>Data collection and transmission protocols</li>
+                    </ul>
+                    <div class="project-meta">
+                        <i class="fas fa-clock"></i> 350+ volunteer hours
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="project-title">Environmental STEM Center</h3>
+                    <p class="project-description">
+                        Worked as an intern at the Palmyra Cove Nature Park's Institute for Earth Observations, 
+                        contributing to the Environmental STEM Center's mission of making advanced technology 
+                        accessible to students and researchers.
+                    </p>
+                    <ul class="project-features">
+                        <li>STEM education initiatives</li>
+                        <li>Interactive exhibit development</li>
+                        <li>Research collaboration</li>
+                        <li>Technology demonstration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-intro">
+                <p>17 publications across AIAA, AGU, IEEE, ICWSM, and other conferences</p>
+                <a href="https://scholar.google.com/citations?user=l1optYkAAAAJ&hl=en" 
+                   class="btn btn-outline" target="_blank">
+                    <i class="fas fa-graduation-cap"></i> View Google Scholar Profile
+                </a>
+            </div>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <div class="publication-number">1</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Elango, S., Cuffe, S., Palma, A., Acchione, Q., Wu, D.</p>
+                        <p class="publication-title">Genetic Algorithm Identification of Initial Orbits for Interplanetary and Earth–Moon Transfers.</p>
+                        <p class="publication-venue">AIAA Conference Paper (AIAA 2026-2923), Trajectory/Mission/Maneuver Design and Optimization III, 2026.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">2</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Elango, S., Loeb, A.</p>
+                        <p class="publication-title">Astrometric Parallax Measurements with JWST for Localization of Near-Earth Objects.</p>
+                        <p class="publication-venue">arXiv preprint, 2025.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">3</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Moore, J. D., Kramer, M., Gallant, J., Khatri, A., Elango, S.</p>
+                        <p class="publication-title">Creating the Earth SySTEM Observatory: Integrating Spaceborne and Ground-Based Environmental Research.</p>
+                        <p class="publication-venue">IEEE ISEC, Princeton University, 2025.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">4</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Dominé, L., Elango, S., Kricheli, J., Fedorenko, A., Brenard, T., Jacoby, D.</p>
+                        <p class="publication-title">Multi-Modal Generalized Class Discovery for Scalable Autonomous All-Sky Surveys.</p>
+                        <p class="publication-venue">IAIFI Summer Workshop, Massachusetts Institute of Technology, 2024.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">5</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Moore, J., Elango, S., Friedman, M., Kang, J., Maceo, C.</p>
+                        <p class="publication-title">The A3Sat Emulator: A Catalyst in Disruptive CubeSat and Space Technology.</p>
+                        <p class="publication-venue">IEEE ISEC, Princeton University, 2024.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">6</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Elango, S., Moore, J., Friedman, M.</p>
+                        <p class="publication-title">A3Sat: Expanding STEM Education through CubeSats and a Global Data Network.</p>
+                        <p class="publication-venue">AGU Annual Meeting, 2023.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">7</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Moore, J., Friedman, M., Elango, S., Kang, J., Maceo, C.</p>
+                        <p class="publication-title">A3Sat Emulator Enterprise: To Observe the Earth and Visualize the Future.</p>
+                        <p class="publication-venue">Small Satellite Conference, 2023.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">8</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Elango, S., Jaidka, K.</p>
+                        <p class="publication-title">Data-Driven Unsupervised Semantic Network Algorithm for Large Language Model Examination/Exploration.</p>
+                        <p class="publication-venue">SSRN, 2023.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">9</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Elango, S., Jaidka, K.</p>
+                        <p class="publication-title">The GPT-Comparator: Discovering and Reporting Spatial and Topical Biases in Generative Pre-Trained Transformers.</p>
+                        <p class="publication-venue">SSRN, 2023.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">10</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Moore, J., Friedman, M., Elango, S., Kang, J., Maceo, C.</p>
+                        <p class="publication-title">A3Sat: Using CubeSat Emulators to Broaden Advanced Participation in STEM Education.</p>
+                        <p class="publication-venue">IEEE ISEC, Johns Hopkins University (APL), 2023.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">11</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Elango, S., Feng, E., Melendrez, E.</p>
+                        <p class="publication-title">Observations of Near-Earth Asteroid 2001 MZ7.</p>
+                        <p class="publication-venue">IAU Minor Planet Center, 2022.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">12</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Elango, S., Jaidka, K.</p>
+                        <p class="publication-title">A Multi-Modal Architecture for Identifying Anti-Social Imagery.</p>
+                        <p class="publication-venue">ICWSM, 2022.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">13</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Elango, S., Summers, M.</p>
+                        <p class="publication-title">Estimation of Extraterrestrial Intelligent Civilizations and Attributes per Exoplanetary Continuum through Algorithmic Simulation and Civilization Modeling.</p>
+                        <p class="publication-venue">AGU AbSciCon, 2022.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">14</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Moore, J., Elango, S., Friedman, M., Kang, J.</p>
+                        <p class="publication-title">A3Sat: Using CubeSats to Inspire the Next Generation STEM Professionals.</p>
+                        <p class="publication-venue">IEEE ISEC, Princeton University, 2022.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">15</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Elango, S., Ramachandran, N.</p>
+                        <p class="publication-title">Novel Approach to Autonomous Mosquito Habitat Detection Using Satellite Imagery and Convolutional Neural Networks for Disease Risk Mapping.</p>
+                        <p class="publication-venue">AGU Fall Meeting, 2021.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">16</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Elango, S.</p>
+                        <p class="publication-title">Landoltia punctata clone W377.20 urease accessory protein-like mRNA.</p>
+                        <p class="publication-venue">NCBI GenBank, 2021.</p>
+                    </div>
+                </div>
+
+                <div class="publication-item">
+                    <div class="publication-number">17</div>
+                    <div class="publication-content">
+                        <p class="publication-authors">Elango, S.</p>
+                        <p class="publication-title">Landoltia punctata clone W378.20 ribulose-1,5-bisphosphate carboxylase small subunit-like mRNA.</p>
+                        <p class="publication-venue">NCBI GenBank, 2021.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reverse Engineering Assignment Section -->
+    <section id="reverse-engineering" class="section">
+        <div class="container">
+            <h2 class="section-title">Reverse Engineering Assignment</h2>
+            <div class="reverse-engineering-content">
+                <div class="assignment-intro">
+                    <p class="assignment-description">
+                        This assignment was completed for ES96 at Harvard University. The analysis involves 
+                        reverse engineering a system or technology to understand its design, functionality, 
+                        and implementation details.
+                    </p>
+                </div>
+                
+                <div class="pdf-viewer-container">
+                    <iframe 
+                        src="Reverse_Engineering_Assignment.pdf" 
+                        class="pdf-viewer"
+                        title="Reverse Engineering Assignment PDF">
+                        <p>Your browser does not support PDFs. 
+                        <a href="Reverse_Engineering_Assignment.pdf" target="_blank">Download the PDF</a> instead.</p>
+                    </iframe>
+                    <div class="pdf-download">
+                        <a href="Reverse_Engineering_Assignment.pdf" class="btn btn-outline" target="_blank" download>
+                            <i class="fas fa-download"></i> Download PDF
+                        </a>
+                    </div>
+                </div>
+
+                <div class="analysis-summary">
+                    <h3 class="summary-title">Analysis Summary</h3>
+                    <div class="summary-content">
+                        <p>
+                            This reverse engineering assignment involved a comprehensive analysis of a system's 
+                            architecture, components, and operational mechanisms. The investigation examined 
+                            the design principles, implementation details, and functional relationships 
+                            between different subsystems.
+                        </p>
+                        <p>
+                            Key findings from the analysis include insights into the system's structural 
+                            organization, data flow patterns, and the underlying technologies employed. 
+                            The reverse engineering process revealed important design decisions and their 
+                            implications for system performance and functionality.
+                        </p>
+                        <p>
+                            The complete analysis, including detailed diagrams, technical specifications, 
+                            and findings, is available in the PDF document above.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Media & Recognition</h2>
+            <div class="media-grid">
+                <article class="media-card">
+                    <div class="media-header">
+                        <i class="fas fa-newspaper"></i>
+                        <h3>Burlington County News</h3>
+                    </div>
+                    <p class="media-date">April 14, 2022</p>
+                    <p class="media-excerpt">
+                        Featured article highlighting my work on the Ground Station application and 
+                        contributions to the A3Sat CubeSat project at the Institute for Earth Observations.
+                    </p>
+                    <a href="https://www.co.burlington.nj.us/CivicAlerts.aspx?AID=1847&ARC=3803" 
+                       class="media-link" target="_blank">
+                        Read Article <i class="fas fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <article class="media-card">
+                    <div class="media-header">
+                        <i class="fas fa-trophy"></i>
+                        <h3>Congressional App Challenge</h3>
+                    </div>
+                    <p class="media-date">2021 Winner - New Jersey 3rd District</p>
+                    <p class="media-excerpt">
+                        Recognized as the winner of the Congressional App Challenge for the Ground Station 
+                        application, with a demonstration at the prestigious #HouseOfCode 2022 conference.
+                    </p>
+                    <a href="https://www.congressionalappchallenge.us/21-nj03/" 
+                       class="media-link" target="_blank">
+                        View Recognition <i class="fas fa-arrow-right"></i>
+                    </a>
+                </article>
+
+                <article class="media-card">
+                    <div class="media-header">
+                        <i class="fas fa-star"></i>
+                        <h3>The Sun Papers</h3>
+                    </div>
+                    <p class="media-date">April 22, 2022</p>
+                    <p class="media-excerpt">
+                        Coverage of my achievement in creating satellite software that enables real-time 
+                        communication and data collection from CubeSat systems.
+                    </p>
+                    <a href="https://thesunpapers.com/2022/04/22/county-student-creates-satellite-software-app/" 
+                       class="media-link" target="_blank">
+                        Read Article <i class="fas fa-arrow-right"></i>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-description">
+                    I'm always interested in discussing new opportunities, collaborations, or answering 
+                    questions about my work. Feel free to reach out!
+                </p>
+                <div class="contact-links">
+                    <a href="https://scholar.google.com/citations?user=l1optYkAAAAJ&hl=en" 
+                       class="contact-link" target="_blank">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>Google Scholar</span>
+                    </a>
+                    <a href="Sriram_Elango_Main_Resume.pdf" 
+                       class="contact-link" download>
+                        <i class="fas fa-file-pdf"></i>
+                        <span>Download Resume</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sriram Elango. All rights reserved.</p>
+            <p class="footer-note">Built with passion for technology and innovation</p>
+            <div class="disclaimer">
+                <p class="disclaimer-text">
+                    <strong>Disclaimer:</strong> This website was created for an assignment for ES96 at Harvard University. 
+                    All content, design, and code were generated with the assistance of AI tools.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
