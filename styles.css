@@ -654,6 +654,77 @@ body {
     font-size: 1.05rem;
 }
 
+/* Space Propulsion (ionic ramjet) Section */
+.space-propulsion-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.space-propulsion-video-card {
+    margin: 2rem 0 3rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--shadow-md);
+    padding: 1.5rem;
+    border: 1px solid var(--border-color);
+}
+
+.space-propulsion-subhead {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 0 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.space-propulsion-subhead i {
+    color: var(--primary-color);
+}
+
+.space-propulsion-video {
+    display: block;
+    width: 100%;
+    max-height: 70vh;
+    border-radius: 8px;
+    background: #0f1419;
+}
+
+.space-propulsion-caption {
+    margin: 0.75rem 0 0;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.space-propulsion-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+    margin-top: 0.5rem;
+}
+
+.space-propulsion-gallery-item {
+    margin: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid var(--border-color);
+    background: var(--bg-secondary, #f8fafc);
+}
+
+.space-propulsion-gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+@media (max-width: 640px) {
+    .space-propulsion-gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Footer */
 .footer {
     background: var(--text-primary);

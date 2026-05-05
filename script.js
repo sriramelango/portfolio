@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }, observerOptions);
 
     // Observe all cards and sections
-    document.querySelectorAll('.project-card, .media-card, .research-card, .internship-item, .publication-item').forEach(card => {
+    document.querySelectorAll('.project-card, .media-card, .research-card, .internship-item, .publication-item, .space-propulsion-gallery-item').forEach(card => {
         card.style.opacity = '0';
         card.style.transform = 'translateY(20px)';
         card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
